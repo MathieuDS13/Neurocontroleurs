@@ -58,7 +58,6 @@ public class EvoAgentMind {
     }
 
     public void doStep() {
-
         double previous[] = new double[hiddenLayerSize];
         double next[] = new double[hiddenLayerSize];
         double[] output = new double[actuatorModules.size()];
